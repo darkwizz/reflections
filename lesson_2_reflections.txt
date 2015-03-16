@@ -1,0 +1,19 @@
+*Note: git status shows current repository state
+
+ - What happens when you initialize a repository? Why do you need to do it?
+
+When I send git init command, in current directory git creates .git directory, that contains all repository history and all changes between commits. Just using of this directory allows us to use all advantages of VCS.
+
+*Note: if I've added some files, but several of them I want to delete from version control and they aren't commited (after git add all added files are contained in stage area, cache), I can use this:
+	git rm --cached <file>...
+
+ - How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+Staging area can be empty and it contains only files that user wants take under version control. Working directory contains all files - both files aren't under version control and files are under it. Repository contains only files are already under version control. Staging area is very important. With it users can choose what files they want to take under version control, commit and so on.
+
+*Note: git add is used not only when I want to add new files - it is also used when I want to add modifications:
+	Changes not staged for commit:
+    (use "git add <file>..." to update what will be committed)
+    (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   lesson_1_reflections.txt
