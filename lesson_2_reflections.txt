@@ -17,3 +17,7 @@ Staging area can be empty and it contains only files that user wants take under 
     (use "git checkout -- <file>..." to discard changes in working directory)
 
         modified:   lesson_1_reflections.txt
+
+*Note:
+	After I added file to staged area I can remove it from there typing
+	git reset HEAD <file>

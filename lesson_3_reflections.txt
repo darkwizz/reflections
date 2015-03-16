@@ -28,3 +28,6 @@
  - When would you want to use a remote repository rather than keeping all your work local?
   In my poor experience I used (and use) remote repo when someone works on project with me. My machine doesn't work for   all the time but my teamates need a permanent access to the latest updates and vice versa.
 
+ *Note:
+	I think that when I added origin I associated a URL with some name to
+	make it easier to connect with remote repo when pushing or pulling.
