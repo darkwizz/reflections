@@ -25,3 +25,6 @@
   ---
   It looks like that I didn't synchronized Linux repo with Windows.
 
+ - When would you want to use a remote repository rather than keeping all your work local?
+  In my poor experience I used (and use) remote repo when someone works on project with me. My machine doesn't work for   all the time but my teamates need a permanent access to the latest updates and vice versa.
+
