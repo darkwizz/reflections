@@ -27,7 +27,7 @@ If I even break something, these mistakes could be found and fix easily because 
 Mostly for programming.
 
 *Note:
-@@ -l,s +l,s @@ - это в каждом выводе diff. Минус показывает старый файл, а плюс - новый. l - строка, начиная с которой были изменения; s - количество изменённых строк.
+@@ -l,s +l,s @@ - Р­С‚Рѕ РІ РєР°Р¶РґРѕРј РІС‹РІРѕРґРµ diff. РњРёРЅСѓСЃ РїРѕРєР°Р·С‹РІР°РµС‚ РёР·РЅР°С‡Р°Р»СЊРЅС‹Р№ С„Р°Р№Р», Р° РїР»СЋСЃ - РЅРѕРІС‹Р№ (РїРµСЂРµРґРµР»Р°РЅРЅС‹Р№, РёР·РјРµРЅС‘РЅРЅС‹Р№). l - СЃС‚СЂРѕРєР°, РЅР°С‡РёРЅР°СЏ СЃ РєРѕС‚РѕСЂРѕР№ Р±С‹Р»Рё РёР·РјРµРЅРµРЅРёСЏ; s - РєРѕР»РёС‡РµСЃС‚РІРѕ РёР·РјРµРЅС‘РЅРЅС‹С… СЃС‚СЂРѕРє.
 
 *Note:
 'HEAD' is name of Git current commit. When repository is created (after git init) there no any commits, so 'HEAD' doesn't exist. When try to git log there'll be FATAL message
