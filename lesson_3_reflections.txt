@@ -31,3 +31,11 @@
  *Note:
 	I think that when I added origin I associated a URL with some name to
 	make it easier to connect with remote repo when pushing or pulling.
+
+ - Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+   I think it can waste many time to check every time and connect to remote server
+
+*Note:
+	GitHub has a forking feature - I can make a copy into my profile from another profile repo. It works only in GitHub, so Git can't fork.
+	When I clone forked repo, then I modify my forked repo only when pushing. So the original repo doesn't know about my changes.
