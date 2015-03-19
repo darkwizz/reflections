@@ -39,3 +39,9 @@
 *Note:
 	GitHub has a forking feature - I can make a copy into my profile from another profile repo. It works only in GitHub, so Git can't fork.
 	When I clone forked repo, then I modify my forked repo only when pushing. So the original repo doesn't know about my changes.
+
+*Note: fetch and pull
+	fetch loads all unadded changes from remote repo, but it doesn't merge them with local working directory. Then there can be two (or more) heads.
+
+	pull tries to merge local changes with downloaded, but when there is the conflict, user must resolve problem himself. But pull executes fast-forward merge.
+	Fast-forward merge can be executed when local merged commit is a parent or ancestor of pulled merged commit. So git can run here automerge.
