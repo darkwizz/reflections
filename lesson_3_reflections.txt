@@ -45,3 +45,8 @@
 
 	pull tries to merge local changes with downloaded, but when there is the conflict, user must resolve problem himself. But pull executes fast-forward merge.
 	Fast-forward merge can be executed when local merged commit is a parent or ancestor of pulled merged commit. So git can run here automerge.
+
+*Note:
+	except of forking GitHub has pull request. They are linked. When I commited changes and push them they are on fork repo only. So if I want original repo owner adds my changes I'll make pull request. And then owner decides add them or not.
+
+
