@@ -50,3 +50,11 @@
 	except of forking GitHub has pull request. They are linked. When I commited changes and push them they are on fork repo only. So if I want original repo owner adds my changes I'll make pull request. And then owner decides add them or not.
 
 
+*Note: what are changed after each command
+	- when there are some modifications, additions or deletions, there is staging directory is updated.
+	- after adding (git add) there is staging area is changed, working directory don't updated
+	- when there is a git commit, the branch info is update, but both staging area and working directory don't change
+	- when git pull is executed, all parts of repo are updated:
+		-> working directory, because there are some new files;
+		-> staging area, because there are some files to merge, because pull means fetch and merge (fast-forward)
+	- after push no any changes in local repo.
