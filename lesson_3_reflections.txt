@@ -58,3 +58,14 @@
 		-> working directory, because there are some new files;
 		-> staging area, because there are some files to merge, because pull means fetch and merge (fast-forward)
 	- after push no any changes in local repo.
+
+*Note: solve merge conflict between different branches
+	- pull all changes from remote repo;
+	- solve merge conflict;
+	- commit it;
+	- checkout on another branch;
+	- merge with last;
+	- push changes;
+	- (if it's a GitHub) make pull request;
+
+
